@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+<meta name="theme-color" content="#0A2A43">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<title>Daniel Herrera Díaz — Head Commercial, Business Development & Innovation | Americas</title>
+<meta name="description" content="Daniel Herrera Díaz. Head Commercial, Business Development & Innovation para las Américas. 20+ años liderando estrategia comercial, RGM y desarrollo de negocio en la industria de ingredientes alimenticios.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230A2A43'/%3E%3Ctext x='32' y='42' font-family='Arial, sans-serif' font-weight='700' font-size='26' fill='%23FFFFFF' text-anchor='middle'%3EDH%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Daniel Herrera Díaz — Head Commercial, Business Development & Innovation | Americas">
+<meta property="og:description" content="20+ años liderando estrategia comercial, RGM y desarrollo de negocio en la industria de ingredientes alimenticios. Abierto a nuevos retos, disponible para reubicación.">
+<meta property="og:image" content="https://danielherrerad-hub.github.io/daniel-herrera-diaz/foto-daniel.jpg">
+<meta property="og:url" content="https://danielherrerad-hub.github.io/daniel-herrera-diaz/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0A2A43;
+    --navy-2:#0F3A5C;
+    --blue:#0060A9;
+    --blue-light:#EAF3FA;
+    --ink:#161B22;
+    --stone:#5B6472;
+    --line:#E1E4E8;
+    --paper:#FFFFFF;
+    --paper-2:#F5F6F8;
+    --radius:4px;
+    --max:1120px;
+  }
+
+  *{ box-sizing:border-box; -webkit-tap-highlight-color: transparent; }
+  html{
+    scroll-behavior:smooth;
+    -webkit-text-size-adjust:100%;
+    text-size-adjust:100%;
+  }
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+    overflow-wrap:break-word;
+    word-break:break-word;
+  }
+  h1,h2,h3{
+    font-family:'Inter', sans-serif;
+    font-weight:700;
+    margin:0;
+    color:var(--navy);
+    letter-spacing:-0.01em;
+  }
+  a{ color:inherit; }
+  img{ max-width:100%; display:block; }
+  .wrap{
+    max-width:var(--max);
+    margin:0 auto;
+    padding:0 24px;
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:14.5px;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--blue);
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    gap:12px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:26px;
+    height:2px;
+    background:var(--blue);
+    display:inline-block;
+  }
+  :focus-visible{
+    outline:2px solid var(--blue);
+    outline-offset:3px;
+  }
+
+  /* ============ TOP NAV ============ */
+  .topnav{
+    background:var(--paper);
+    border-bottom:1px solid var(--line);
+    position:sticky;
+    top:0;
+    z-index:20;
+    padding-top:env(safe-area-inset-top);
+    padding-left:env(safe-area-inset-left);
+    padding-right:env(safe-area-inset-right);
+  }
+  .topnav-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px;
+    padding:14px 0;
+  }
+  .topnav-name{
+    font-weight:700;
+    font-size:16px;
+    color:var(--navy);
+    flex-shrink:0;
+  }
+  .topnav-links{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+    flex:1 1 auto;
+    justify-content:flex-end;
+    min-width:0;
+  }
+  .topnav-links::-webkit-scrollbar{ display:none; }
+  .topnav-links a{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11.5px;
+    font-weight:600;
+    letter-spacing:0.03em;
+    text-transform:uppercase;
+    color:var(--navy);
+    text-decoration:none;
+    white-space:nowrap;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:11px 13px;
+    min-height:40px;
+    display:inline-flex;
+    align-items:center;
+    background:var(--paper);
+    touch-action:manipulation;
+    transition:border-color .12s ease, color .12s ease, background .12s ease;
+  }
+  .topnav-links a:hover{
+    border-color:var(--blue);
+    color:var(--blue);
+    background:var(--blue-light);
+  }
+  .menu-toggle{
+    display:none;
+    width:40px;
+    height:40px;
+    flex-shrink:0;
+    align-items:center;
+    justify-content:center;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    background:var(--paper);
+    color:var(--navy);
+    cursor:pointer;
+    padding:0;
+    touch-action:manipulation;
+  }
+  .menu-toggle:hover{ border-color:var(--blue); color:var(--blue); }
+  .menu-toggle svg{ width:20px; height:20px; }
+  .menu-toggle .icon-close{ display:none; }
+  .menu-toggle[aria-expanded="true"] .icon-open{ display:none; }
+  .menu-toggle[aria-expanded="true"] .icon-close{ display:block; }
+  /* ============ HERO ============ */
+  header.hero{
+    background:var(--paper);
+    padding:52px 0 0;
+  }
+  .hero-grid{
+    display:grid;
+    grid-template-columns:1.5fr 1fr;
+    gap:48px;
+    align-items:center;
+    padding-bottom:40px;
+  }
+  .hero-role{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13.5px;
+    font-weight:600;
+    letter-spacing:0.04em;
+    color:var(--blue);
+    margin-bottom:16px;
+  }
+  .hero h1{
+    font-size:clamp(30px, 4vw, 46px);
+    line-height:1.14;
+    letter-spacing:-0.015em;
+    color:var(--navy);
+  }
+  .hero h1 em{
+    font-style:normal;
+    color:var(--blue);
+  }
+  .hero-sub{
+    margin-top:20px;
+    max-width:52ch;
+    color:var(--stone);
+    font-size:16.5px;
+  }
+  .hero-credential{
+    font-family:'Inter', sans-serif;
+    font-size:17px;
+    font-weight:700;
+    color:var(--blue);
+    margin-top:14px;
+    letter-spacing:-0.005em;
+  }
+  .status-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:24px;
+  }
+  .status-pill{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    font-weight:600;
+    color:var(--navy);
+    border:1px solid var(--line);
+    border-radius:999px;
+    padding:8px 16px 8px 12px;
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    background:var(--paper-2);
+  }
+  .status-dot{
+    width:7px; height:7px; border-radius:50%;
+    background:#1F8A4C;
+    box-shadow:0 0 0 3px rgba(31,138,76,0.16);
+  }
+
+  .hero-photo-frame{
+    width:100%;
+    max-width:280px;
+    aspect-ratio:4/5;
+    margin-left:auto;
+    border-radius:6px;
+    overflow:hidden;
+    box-shadow:0 12px 32px rgba(10,42,67,0.14), 0 2px 8px rgba(10,42,67,0.08);
+    border:1px solid var(--line);
+  }
+  .hero-photo-frame img{
+    width:100%; height:100%;
+    object-fit:cover;
+    object-position:top center;
+    display:block;
+  }
+
+  .cta-row{
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+    padding-bottom:0;
+  }
+  .btn{
+    font-family:'Inter', sans-serif;
+    font-size:14px;
+    font-weight:600;
+    padding:13px 20px;
+    border-radius:var(--radius);
+    text-decoration:none;
+    display:inline-flex;
+    align-items:center;
+    gap:9px;
+    min-height:44px;
+    touch-action:manipulation;
+    transition:transform .12s ease, background .12s ease, border-color .12s ease, color .12s ease;
+    border:1.5px solid transparent;
+  }
+  .btn:hover{ transform:translateY(-1px); }
+  .btn-primary{
+    background:var(--navy);
+    color:var(--paper);
+  }
+  .btn-primary:hover{ background:var(--blue); }
+  .btn-ghost{
+    border-color:var(--line);
+    color:var(--navy);
+    background:var(--paper);
+  }
+  .btn-ghost:hover{ border-color:var(--blue); color:var(--blue); background:var(--blue-light); }
+  .btn-secondary{
+    background:var(--blue);
+    color:var(--paper);
+  }
+  .btn-secondary:hover{ background:#0078CC; }
+  .btn-minor{
+    font-size:12.5px;
+    font-weight:500;
+    padding:9px 14px;
+    min-height:38px;
+    border-color:var(--line);
+    color:var(--stone);
+    background:transparent;
+  }
+  .btn-minor:hover{ border-color:var(--blue); color:var(--blue); background:var(--blue-light); }
+  .btn-minor.btn-icon{ width:38px; }
+  footer .btn-minor{ border-color:rgba(255,255,255,0.22); color:rgba(255,255,255,0.65); }
+  footer .btn-minor:hover{ border-color:#8FC5F2; color:#8FC5F2; background:rgba(255,255,255,0.06); }
+  .btn svg{ flex-shrink:0; }
+  .btn-icon{
+    padding:0;
+    width:44px;
+    justify-content:center;
+    gap:0;
+  }
+  .btn-icon svg{ width:17px; height:17px; }
+
+  /* ============ STAT BAND ============ */
+  .stat-band{
+    border-top:1px solid var(--line);
+    background:var(--paper-2);
+  }
+  .stat-row{
+    display:grid;
+    grid-template-columns:repeat(5, 1fr);
+    max-width:var(--max);
+    margin:0 auto;
+  }
+  .stat-item{
+    padding:26px 18px;
+    border-right:1px solid var(--line);
+    font-family:'IBM Plex Mono', monospace;
+    text-align:left;
+  }
+  .stat-item:last-child{ border-right:none; }
+  .stat-num{
+    font-size:22px;
+    font-weight:700;
+    color:var(--navy);
+    letter-spacing:-0.02em;
+    font-variant-numeric: tabular-nums;
+  }
+  .stat-label{
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--stone);
+    margin-top:5px;
+    font-family:'Inter', sans-serif;
+    font-weight:500;
+  }
+
+  /* ============ TRUST STRIP ============ */
+  .trust-strip{
+    background:var(--paper);
+    border-bottom:1px solid var(--line);
+    padding:20px 0;
+  }
+  .trust-strip-row{
+    display:flex;
+    align-items:center;
+    gap:24px;
+    flex-wrap:wrap;
+  }
+  .trust-label{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--stone);
+    flex-shrink:0;
+  }
+  .trust-logos{
+    display:flex;
+    align-items:center;
+    gap:28px;
+    flex-wrap:wrap;
+  }
+  .trust-logo{
+    font-family:'Inter', sans-serif;
+    font-weight:800;
+    font-size:15px;
+    letter-spacing:0.02em;
+    color:var(--navy);
+    opacity:0.5;
+  }
+
+  /* ============ SECTIONS ============ */
+  section{ padding:72px 0; }
+  section.tight{ padding:56px 0; }
+  .section-head{
+    display:grid;
+    grid-template-columns:260px 1fr;
+    gap:36px;
+    margin-bottom:40px;
+  }
+  .section-head h2{
+    font-size:27px;
+    line-height:1.25;
+  }
+  .section-head .eyebrow{ margin-bottom:14px; }
+  .section-lede{
+    color:var(--stone);
+    font-size:15px;
+    max-width:58ch;
+    align-self:end;
+  }
+
+  .profile-block{
+    display:grid;
+    grid-template-columns:260px 1fr;
+    gap:36px;
+  }
+  .profile-block p{
+    font-size:17px;
+    line-height:1.75;
+    color:var(--ink);
+    max-width:66ch;
+  }
+  .profile-block p + p{ margin-top:16px; }
+  .profile-block strong{ color:var(--navy); font-weight:700; }
+
+  /* Timeline */
+  .role-card{
+    border-top:1px solid var(--line);
+    padding:32px 0;
+    display:grid;
+    grid-template-columns:260px 1fr;
+    gap:36px;
+  }
+  .role-card:last-of-type{ border-bottom:1px solid var(--line); }
+  .role-meta{ align-self:start; }
+  .role-company{
+    font-family:'Inter', sans-serif;
+    font-size:19px;
+    font-weight:700;
+    color:var(--navy);
+  }
+  .role-title{
+    font-size:13.5px;
+    color:var(--stone);
+    margin-top:4px;
+  }
+  .role-dates{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    color:var(--blue);
+    margin-top:12px;
+    letter-spacing:0.03em;
+    font-weight:600;
+  }
+  .role-scope{
+    color:var(--ink);
+    font-size:14.5px;
+    margin:0 0 16px;
+  }
+  .role-bullets{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:grid;
+    gap:11px;
+  }
+  .role-bullets li{
+    position:relative;
+    padding-left:20px;
+    font-size:15px;
+    color:var(--ink);
+    line-height:1.6;
+  }
+  .role-bullets li::before{
+    content:"";
+    position:absolute;
+    left:0; top:9px;
+    width:8px; height:2px;
+    background:var(--blue);
+  }
+  .role-bullets b{ color:var(--navy); font-weight:700; }
+
+  .prior-roles{
+    margin-top:8px;
+    padding-top:30px;
+    display:grid;
+    grid-template-columns:260px 1fr;
+    gap:36px;
+  }
+  .prior-list{
+    display:grid;
+    gap:9px;
+  }
+  .prior-list div{
+    display:flex;
+    justify-content:space-between;
+    gap:16px;
+    font-size:13.5px;
+    padding:9px 0;
+    border-bottom:1px dashed var(--line);
+    color:var(--stone);
+  }
+  .prior-list span.co{ color:var(--ink); font-weight:500; }
+  .prior-list span.yr{ font-family:'IBM Plex Mono', monospace; font-size:12px; white-space:nowrap; }
+
+  /* Expertise */
+  .expertise-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+  }
+  .expertise-item{
+    background:var(--paper);
+    padding:26px 22px;
+  }
+  .expertise-num{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    color:var(--blue);
+    letter-spacing:0.08em;
+    font-weight:600;
+  }
+  .expertise-item h3{
+    font-size:16px;
+    margin-top:10px;
+    font-weight:700;
+    color:var(--navy);
+  }
+  .expertise-item p{
+    font-size:13.5px;
+    color:var(--stone);
+    margin-top:8px;
+    line-height:1.55;
+  }
+
+  /* Education band */
+  .band{
+    background:var(--paper-2);
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+  }
+  .edu-grid{
+    display:grid;
+    grid-template-columns:260px 1fr;
+    gap:36px;
+  }
+  .edu-list{ display:grid; gap:14px; }
+  .edu-row{
+    display:grid;
+    grid-template-columns:1fr auto;
+    gap:16px;
+    padding-bottom:14px;
+    border-bottom:1px solid var(--line);
+    font-size:14.5px;
+  }
+  .edu-row:last-child{ border-bottom:none; padding-bottom:0; }
+  .edu-degree{ color:var(--navy); font-weight:600; }
+  .edu-school{ color:var(--stone); font-size:13px; margin-top:2px; }
+  .lang-row{
+    margin-top:20px;
+    display:flex;
+    gap:24px;
+    flex-wrap:wrap;
+  }
+  .lang-item{ font-size:13.5px; }
+  .lang-item b{ display:block; color:var(--navy); }
+  .lang-item span{ color:var(--stone); font-size:12px; }
+
+  /* Footer CTA */
+  footer{
+    background:var(--navy);
+    color:var(--paper);
+    padding:64px 0 calc(32px + env(safe-area-inset-bottom));
+    padding-left:env(safe-area-inset-left);
+    padding-right:env(safe-area-inset-right);
+  }
+  .footer-grid{
+    display:grid;
+    grid-template-columns:1.3fr 1fr;
+    gap:48px;
+    padding-bottom:44px;
+    border-bottom:1px solid rgba(255,255,255,0.14);
+  }
+  footer h2{
+    font-size:28px;
+    color:var(--paper);
+    line-height:1.25;
+    max-width:18ch;
+  }
+  footer .hero-sub{ color:rgba(255,255,255,0.68); margin-top:14px; max-width:44ch; }
+  .footer-facts{ display:grid; gap:16px; align-content:start; }
+  .footer-fact{
+    display:flex;
+    justify-content:space-between;
+    gap:12px;
+    border-bottom:1px solid rgba(255,255,255,0.14);
+    padding-bottom:12px;
+    font-size:13.5px;
+  }
+  .footer-fact span:first-child{ color:rgba(255,255,255,0.5); font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; }
+  .footer-fact span:last-child{ color:var(--paper); font-weight:500; text-align:right; }
+  .footer-fact a{ color:#8FC5F2; text-decoration:none; }
+  .footer-bottom{
+    padding-top:24px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:10px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11.5px;
+    color:rgba(255,255,255,0.4);
+  }
+  .footer-bottom a{ color:rgba(255,255,255,0.6); text-decoration:none; }
+  .footer-bottom a:hover{ color:#8FC5F2; }
+  footer .btn-primary{ background:var(--blue); }
+  footer .btn-primary:hover{ background:#0078CC; }
+  footer .btn-ghost{ border-color:rgba(255,255,255,0.28); color:var(--paper); background:transparent; }
+  footer .btn-ghost:hover{ border-color:#8FC5F2; color:#8FC5F2; background:rgba(255,255,255,0.06); }
+
+  /* ============ RESPONSIVE ============ */
+  @media (max-width:1024px){
+    .hero-grid{ gap:32px; }
+    .hero-photo-frame{ max-width:220px; }
+    .topnav-links{ gap:6px; }
+    .topnav-links a{ padding:10px 11px; font-size:11px; }
+  }
+  @media (max-width:860px){
+    .wrap{ padding:0 20px; }
+    .menu-toggle{ display:inline-flex; }
+    .topnav-links{
+      display:none;
+      position:absolute;
+      top:100%;
+      left:0;
+      right:0;
+      overflow:visible;
+      grid-template-columns:1fr 1fr;
+      gap:10px;
+      background:var(--paper);
+      border-bottom:1px solid var(--line);
+      box-shadow:0 12px 24px rgba(10,42,67,0.1);
+      padding:16px 20px calc(20px + env(safe-area-inset-bottom));
+    }
+    .topnav-links.is-open{ display:grid; }
+    .topnav-links a{
+      justify-content:center;
+      text-align:center;
+      padding:13px 10px;
+      font-size:12.5px;
+    }
+    .topnav{ position:sticky; }
+    .topnav-row{ position:relative; }
+    .topnav-links a:last-child{ grid-column:1 / -1; }
+    .hero-grid{ grid-template-columns:1fr; gap:28px; }
+    .trust-strip-row{ flex-direction:column; align-items:flex-start; gap:10px; }
+    .trust-logos{ gap:20px; }
+    .hero-photo-frame{ max-width:180px; margin:0 0 4px; order:-1; }
+    .stat-row{ grid-template-columns:1fr 1fr; }
+    .stat-item{ border-bottom:1px solid var(--line); padding:20px 14px; }
+    .stat-num{ font-size:19px; }
+    .stat-item:nth-child(2n){ border-right:none; }
+    .section-head, .profile-block, .role-card, .prior-roles, .edu-grid{
+      grid-template-columns:1fr;
+      gap:12px;
+    }
+    .role-card{ padding:26px 0; }
+    .expertise-grid{ grid-template-columns:1fr 1fr; }
+    .footer-grid{ grid-template-columns:1fr; gap:32px; }
+    .edu-row{ grid-template-columns:1fr; }
+    .edu-row .edu-degree{ font-size:14px; }
+    section{ padding:52px 0; }
+    section.tight{ padding:40px 0; }
+  }
+  @media (max-width:520px){
+    .expertise-grid{ grid-template-columns:1fr; }
+    .stat-row{ grid-template-columns:1fr 1fr; }
+    .cta-row{ flex-direction:column; align-items:stretch; }
+    .btn{ justify-content:center; text-align:center; }
+    .topnav-name{ font-size:14px; }
+    .hero h1{ font-size:28px; }
+    .footer-fact{ flex-direction:column; gap:2px; }
+    .footer-fact span:last-child{ text-align:left; }
+  }
+  @media (max-width:380px){
+    .wrap{ padding:0 16px; }
+    .hero-photo-frame{ max-width:150px; }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *{ scroll-behavior:auto !important; transition:none !important; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <div class="wrap topnav-row">
+    <div class="topnav-name">Daniel Herrera Díaz</div>
+    <nav class="topnav-links" id="topnav-links">
+      <a href="#perfil">Perfil</a>
+      <a href="#trayectoria">Trayectoria</a>
+      <a href="#expertise">Áreas de expertise</a>
+      <a href="#formacion">Formación</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="topnav-links">
+      <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="5" y1="5" x2="19" y2="19"/><line x1="19" y1="5" x2="5" y2="19"/></svg>
+    </button>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-role">Head Commercial · Business Development &amp; Innovation · Americas</div>
+        <h1>Convierto portafolios de <em>commodities</em> en negocios de alto margen.</h1>
+        <div class="hero-credential">20+ años construyendo negocios rentables en las Américas · P&amp;L de $95M USD · RGM · Go-To-Market</div>
+        <p class="hero-sub">20+ años liderando estrategia comercial, pricing y desarrollo de nuevo negocio en Alimentos, Bebidas y Foodservice, desde México hasta Centroamérica y Estados Unidos.</p>
+        <div class="status-row">
+          <div class="status-pill"><span class="status-dot"></span>Abierto a nuevos retos</div>
+          <div class="status-pill">Disponible para reubicación</div>
+        </div>
+      </div>
+      <div class="hero-photo-frame">
+        <img src="foto-daniel.jpg" alt="Daniel Herrera Díaz">
+      </div>
+    </div>
+
+    <div class="cta-row" style="padding-bottom:0; margin-bottom:0;">
+      <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=+525535518242&text=Hola%20Daniel,%20vi%20tu%20perfil%20y%20quiero%20que%20hablemos" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4a9.15 9.15 0 0 0-7.63 14.4L3 21l2.7-1.36A9.13 9.13 0 0 0 12.05 21a9.15 9.15 0 0 0 6.47-15.68zm-5.55 13a7.5 7.5 0 0 1-3.87-1.06l-.28-.17-2.9.75.78-2.84-.18-.29A7.53 7.53 0 1 1 19.6 12.6a7.5 7.5 0 0 1-7.55 6.72zm4.16-5.62c-.23-.11-1.35-.66-1.56-.74s-.36-.11-.51.11-.59.74-.72.9-.26.17-.49.06a6.13 6.13 0 0 1-1.8-1.11 6.75 6.75 0 0 1-1.25-1.55c-.13-.23 0-.35.1-.46s.23-.26.34-.4a1.55 1.55 0 0 0 .23-.38.42.42 0 0 0 0-.4c-.06-.11-.51-1.23-.7-1.68s-.37-.38-.51-.39h-.44a.85.85 0 0 0-.62.29 2.6 2.6 0 0 0-.81 1.94 4.5 4.5 0 0 0 .95 2.39 10.3 10.3 0 0 0 4 3.53 4.6 4.6 0 0 0 2.83.59 2.4 2.4 0 0 0 1.58-1.12 1.9 1.9 0 0 0 .13-1.12c-.06-.09-.21-.15-.44-.26z"/></svg>Exploremos oportunidades →</a>
+      <a class="btn btn-secondary" href="https://recolocate.net/wp-content/uploads/2026/07/CV-DANIEL-HERRERA-DIAZ.pdf" target="_blank" rel="noopener">Descargar CV (PDF)</a>
+      <a class="btn btn-ghost btn-minor" href="https://www.linkedin.com/in/daniel-herrera-d/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn btn-ghost btn-minor btn-icon" href="mailto:danielherrerad@gmail.com" aria-label="Escríbeme por correo" title="Escríbeme por correo"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><text x="12" y="16.5" font-family="'IBM Plex Mono', monospace" font-size="15" font-weight="700" fill="currentColor" text-anchor="middle">@</text></svg></a>
+    </div>
+  </div>
+
+  <div class="stat-band" style="margin-top:36px;">
+    <div class="stat-row">
+      <div class="stat-item"><div class="stat-num">$95M USD</div><div class="stat-label">P&amp;L gestionado</div></div>
+      <div class="stat-item"><div class="stat-num">+35%</div><div class="stat-label">Margen bruto vía RGM</div></div>
+      <div class="stat-item"><div class="stat-num">1→4</div><div class="stat-label">Cuentas clave (+300%)</div></div>
+      <div class="stat-item"><div class="stat-num">−50%</div><div class="stat-label">Cost-to-Serve (Power BI)</div></div>
+      <div class="stat-item"><div class="stat-num">101%</div><div class="stat-label">Metas del equipo regional</div></div>
+    </div>
+  </div>
+</header>
+
+<div class="trust-strip">
+  <div class="wrap trust-strip-row">
+    <span class="trust-label">Trayectoria construida en</span>
+    <span class="trust-logos">
+      <span class="trust-logo">MILLFOODS</span>
+      <span class="trust-logo">CARGILL</span>
+      <span class="trust-logo">BUNGE</span>
+      <span class="trust-logo">AB MAURI / FLEISCHMANN</span>
+    </span>
+  </div>
+</div>
+
+<main>
+
+  <section class="tight" id="perfil">
+    <div class="wrap profile-block">
+      <div class="eyebrow">Perfil</div>
+      <div>
+        <p>He construido mi carrera alrededor de una idea simple: los ingredientes agroindustriales son un <em>commodity</em> hasta que alguien diseña la estrategia de precio, canal e innovación correcta. En Millfoods diseñé el modelo de Route-to-Market bajo el marco Where to Play / How to Win, lideré la implementación de Revenue Growth Management y estructuré alianzas Joint Business Plan con cuentas corporativas del sector alimentos, snacks y bebidas.</p>
+        <p><strong>Head Commercial con más de 20 años de trayectoria</strong> en industria agroalimentaria y Foodservice. Busco un desafío ejecutivo donde pueda aportar visión estratégica, liderazgo comercial y desarrollo de negocios para acelerar el crecimiento de la organización, generar resultados sostenibles y crear valor para clientes, colaboradores y accionistas.</p>
+        <p>Antes, en Cargill y Bunge, construí la misma disciplina: crecimiento de <strong>Market Share</strong>, rediseño de portafolio por canal y desarrollo de equipos comerciales de alto desempeño en México y Centroamérica.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="trayectoria">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Trayectoria</div>
+          <h2>Resultados por etapa</h2>
+        </div>
+        <p class="section-lede">Cada rol suma una capa distinta de la misma disciplina comercial: pricing, canal, portafolio y equipo.</p>
+      </div>
+
+      <div class="role-card">
+        <div class="role-meta">
+          <div class="role-company">Millfoods México</div>
+          <div class="role-title">Head Commercial, Business Development &amp; Innovation | Americas</div>
+          <div class="role-dates">2024 — 2026</div>
+        </div>
+        <div>
+          <p class="role-scope">Responsable directo de la estrategia comercial y el P&amp;L de $95M USD para Brewers, Snacks, Cereales, Distillers y Foodservice en la región Américas.</p>
+          <ul class="role-bullets">
+            <li>Diseñé y ejecuté el <b>Route-to-Market</b> de la compañía bajo el marco Where to Play / How to Win, estructurando una organización comercial ágil.</li>
+            <li>Lideré la implementación de <b>Revenue Growth Management (RGM)</b>, optimizando pricing y logrando <b>+35% de margen bruto</b>.</li>
+            <li>Establecí alianzas <b>Joint Business Plan (JBP)</b> con cuentas corporativas, capturando 4 cuentas clave de alimentos, snacks y bebidas (<b>+300%</b>).</li>
+            <li>Estructuré el portafolio de nuevos negocios incorporando Design Thinking e Innovation Yellow Belt, acelerando el Time-to-Market en nutrición animal, petfood, snacks y bakery.</li>
+            <li>Transformé la gestión comercial con analítica en <b>Power BI</b>, logrando <b>−50% en Cost-to-Serve</b>.</li>
+            <li>Formé y lideré un equipo regional de <b>8 integrantes</b> en EE.UU., Centroamérica y México, alcanzando <b>101% de las metas</b> de margen financiero.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="role-card">
+        <div class="role-meta">
+          <div class="role-company">Cargill</div>
+          <div class="role-title">Gerente Comercial</div>
+          <div class="role-dates">2020 — 2024</div>
+        </div>
+        <div>
+          <p class="role-scope">Estrategia comercial y trade marketing B2B2C, B2B, B2C y E-commerce para Fats &amp; Oils, Cornmeal, Starch y Texturizers. Liderazgo en Bakery, Foodservice, Strategic Pricing, Risk Management e Innovación.</p>
+          <ul class="role-bullets">
+            <li>Crecí el <b>Market Share +57%</b> en volumen y el margen de contribución <b>+200%</b> mediante Category Management y activación de canal.</li>
+            <li>Dirigí el revamp de portafolio de Fats &amp; Oils y Cornmeal, rediseñando el mix por canal para maximizar rentabilidad.</li>
+            <li>Lideré el proyecto de Gestión de Estructura de Costos, logrando eficiencias en pricing y margen.</li>
+            <li>Coordiné las estrategias Go-To-Market y el Modelo de Gestión de Distribuidores.</li>
+            <li>Capacité equipos de venta en distribuidores clave, elevando la ejecución de canal de forma sostenida.</li>
+            <li>Actué como SME de Salesforce en la adopción regional de la plataforma, elevando la disciplina de pipeline y forecast del equipo comercial.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="role-card">
+        <div class="role-meta">
+          <div class="role-company">Bunge</div>
+          <div class="role-title">Gerente Regional de Ventas</div>
+          <div class="role-dates">2017 — 2020</div>
+        </div>
+        <div>
+          <p class="role-scope">Planes de crecimiento y trade marketing en la zona sur (canales B2B2C y B2C), liderando equipo de ventas y técnico-comercial.</p>
+          <ul class="role-bullets">
+            <li>Crecí el <b>Market Share +30%</b> en volumen y el margen de contribución <b>+45%</b> rentabilizando el portafolio por canal.</li>
+            <li>Impulsé el portafolio con el proyecto de Valor de Marca (capacitación, mercadotecnia vivencial y SIVA), <b>+15%</b> de penetración de mercado.</li>
+            <li>Segmenté la base de clientes por longitud de canal y tipo de organización, diseñando un enfoque diferenciado.</li>
+            <li>Desplegué los proyectos Go-To-Market y Salesforce, desarrollando un equipo especializado de alto desempeño.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="prior-roles">
+        <div class="eyebrow">Trayectoria previa</div>
+        <div class="prior-list">
+          <div><span class="co">Gerente Regional de Ventas · AB Mauri / Fleischmann (México / Panamá)</span><span class="yr">2013 — 2017</span></div>
+          <div><span class="co">Gerente Nacional de Ventas · Industrias Alimenticias FABP</span><span class="yr">2012 — 2013</span></div>
+          <div><span class="co">Gerente de Desarrollo de Negocios · DVA Mexicana</span><span class="yr">2011 — 2012</span></div>
+          <div><span class="co">Gerente de Cuentas Clave · Diversey</span><span class="yr">2008 — 2011</span></div>
+          <div><span class="co">Coordinador de Ventas Exportación LATAM · CFS Dresen Química Latinoamérica</span><span class="yr">2002 — 2008</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tight" id="expertise">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Áreas de expertise</div>
+          <h2>Dónde genero valor</h2>
+        </div>
+        <p class="section-lede">Seis disciplinas que se repiten en cada etapa de mi carrera, aplicadas de forma consistente en distintas categorías y países.</p>
+      </div>
+      <div class="expertise-grid">
+        <div class="expertise-item">
+          <div class="expertise-num">01</div>
+          <h3>Route-to-Market</h3>
+          <p>Diseño de estrategia comercial bajo el marco Where to Play / How to Win.</p>
+        </div>
+        <div class="expertise-item">
+          <div class="expertise-num">02</div>
+          <h3>Revenue Growth Management</h3>
+          <p>Pricing estratégico, Strategic Pricing y captura de margen.</p>
+        </div>
+        <div class="expertise-item">
+          <div class="expertise-num">03</div>
+          <h3>Joint Business Plans</h3>
+          <p>Alianzas comerciales con cuentas corporativas tier 1.</p>
+        </div>
+        <div class="expertise-item">
+          <div class="expertise-num">04</div>
+          <h3>Innovación de portafolio</h3>
+          <p>Design Thinking, Innovation Yellow Belt y desarrollo de nuevas líneas de negocio.</p>
+        </div>
+        <div class="expertise-item">
+          <div class="expertise-num">05</div>
+          <h3>Analítica comercial</h3>
+          <p>Modelos de decisión soportados en Power BI para reducir Cost-to-Serve.</p>
+        </div>
+        <div class="expertise-item">
+          <div class="expertise-num">06</div>
+          <h3>Liderazgo regional</h3>
+          <p>Equipos multinacionales en México, EE.UU. y Centroamérica.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band tight" id="formacion">
+    <div class="wrap edu-grid">
+      <div class="eyebrow">Formación</div>
+      <div>
+        <div class="edu-list">
+          <div class="edu-row">
+            <div><div class="edu-degree">Maestría en Dirección Comercial y Marketing</div><div class="edu-school">ENEB</div></div>
+          </div>
+          <div class="edu-row">
+            <div><div class="edu-degree">Maestría en Administración de Negocios (MBA)</div><div class="edu-school">UNITEC</div></div>
+          </div>
+          <div class="edu-row">
+            <div><div class="edu-degree">Diplomado en Finanzas Corporativas</div><div class="edu-school">UAM</div></div>
+          </div>
+          <div class="edu-row">
+            <div><div class="edu-degree">Diplomado en Mercadotecnia</div><div class="edu-school">UNITEC</div></div>
+          </div>
+          <div class="edu-row">
+            <div><div class="edu-degree">Ingeniería en Alimentos</div><div class="edu-school">UAM</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contacto">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="eyebrow" style="margin-bottom:16px;">Contacto</div>
+        <h2>¿Buscas a alguien que convierta pricing y portafolio en margen?</h2>
+        <p class="hero-sub">Escríbeme directo. Respondo en menos de 24 horas.</p>
+        <div class="cta-row" style="margin-top:26px;">
+          <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=+525535518242&text=Hola%20Daniel,%20vi%20tu%20perfil%20y%20quiero%20que%20hablemos" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4a9.15 9.15 0 0 0-7.63 14.4L3 21l2.7-1.36A9.13 9.13 0 0 0 12.05 21a9.15 9.15 0 0 0 6.47-15.68zm-5.55 13a7.5 7.5 0 0 1-3.87-1.06l-.28-.17-2.9.75.78-2.84-.18-.29A7.53 7.53 0 1 1 19.6 12.6a7.5 7.5 0 0 1-7.55 6.72zm4.16-5.62c-.23-.11-1.35-.66-1.56-.74s-.36-.11-.51.11-.59.74-.72.9-.26.17-.49.06a6.13 6.13 0 0 1-1.8-1.11 6.75 6.75 0 0 1-1.25-1.55c-.13-.23 0-.35.1-.46s.23-.26.34-.4a1.55 1.55 0 0 0 .23-.38.42.42 0 0 0 0-.4c-.06-.11-.51-1.23-.7-1.68s-.37-.38-.51-.39h-.44a.85.85 0 0 0-.62.29 2.6 2.6 0 0 0-.81 1.94 4.5 4.5 0 0 0 .95 2.39 10.3 10.3 0 0 0 4 3.53 4.6 4.6 0 0 0 2.83.59 2.4 2.4 0 0 0 1.58-1.12 1.9 1.9 0 0 0 .13-1.12c-.06-.09-.21-.15-.44-.26z"/></svg>Exploremos oportunidades →</a>
+          <a class="btn btn-ghost btn-minor btn-icon" href="mailto:danielherrerad@gmail.com" aria-label="Escríbeme por correo" title="Escríbeme por correo"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><text x="12" y="16.5" font-family="'IBM Plex Mono', monospace" font-size="15" font-weight="700" fill="currentColor" text-anchor="middle">@</text></svg></a>
+          <a class="btn btn-ghost btn-minor" href="https://www.linkedin.com/in/daniel-herrera-d/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <div class="footer-facts">
+        <div class="footer-fact"><span>Ubicación</span><span>Puebla, México</span></div>
+        <div class="footer-fact"><span>Reubicación</span><span>Disponible</span></div>
+        <div class="footer-fact"><span>Estatus</span><span>Abierto a nuevos retos</span></div>
+        <div class="footer-fact"><span>Último rol</span><span>Head Commercial</span></div>
+        <div class="footer-fact"><span>CV completo</span><span><a href="https://recolocate.net/wp-content/uploads/2026/07/CV-DANIEL-HERRERA-DIAZ.pdf" target="_blank" rel="noopener">Descargar PDF ↓</a></span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>Daniel Herrera Díaz © 2026</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var toggle = document.getElementById('menu-toggle');
+  var menu = document.getElementById('topnav-links');
+  if(!toggle || !menu) return;
+
+  function closeMenu(){
+    menu.classList.remove('is-open');
+    toggle.setAttribute('aria-expanded','false');
+    toggle.setAttribute('aria-label','Abrir menú');
+  }
+  function openMenu(){
+    menu.classList.add('is-open');
+    toggle.setAttribute('aria-expanded','true');
+    toggle.setAttribute('aria-label','Cerrar menú');
+  }
+
+  toggle.addEventListener('click', function(){
+    if(menu.classList.contains('is-open')){ closeMenu(); } else { openMenu(); }
+  });
+
+  menu.querySelectorAll('a').forEach(function(link){
+    link.addEventListener('click', closeMenu);
+  });
+
+  document.addEventListener('click', function(e){
+    if(!menu.classList.contains('is-open')) return;
+    if(!menu.contains(e.target) && !toggle.contains(e.target)){ closeMenu(); }
+  });
+
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){ closeMenu(); }
+  });
+
+  window.addEventListener('resize', function(){
+    if(window.innerWidth > 860){ closeMenu(); }
+  });
+})();
+</script>
+</body>
+</html>
